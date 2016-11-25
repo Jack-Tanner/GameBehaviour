@@ -1,0 +1,27 @@
+﻿  TextureManager.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\basetexture.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  TexturedQuad.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\renderable.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  ShaderManager.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\shadermanager.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Renderer.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\shadermanager.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Renderable.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\renderable.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Quad.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\renderable.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  GLFontManager.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\glbuffer.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  GLFont.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\glfont.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  GLBuffer.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\glbuffer.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  BaseTexture.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\basetexture.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  BaseShader.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\baseshader.h(3): fatal error C1083: Cannot open include file: 'GL\glew.h': No such file or directory
+  AnimatedTexturedQuad.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\renderable.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  AnimatedTexture.cpp
+c:\users\jack\source\repos\gamebehaviour\glgraphics\basetexture.h(3): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+  Generating Code...

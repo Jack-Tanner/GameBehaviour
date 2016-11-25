@@ -1,0 +1,27 @@
+﻿  World.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseentity.h(3): fatal error C1083: Cannot open include file: 'Transform.h': No such file or directory
+  Window.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\window.h(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  SpriteEntity.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseentity.h(3): fatal error C1083: Cannot open include file: 'Transform.h': No such file or directory
+  MenuState.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseentity.h(3): fatal error C1083: Cannot open include file: 'Transform.h': No such file or directory
+  Main.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\application.h(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  GameStateManager.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseentity.h(3): fatal error C1083: Cannot open include file: 'Transform.h': No such file or directory
+  GameState.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseentity.h(3): fatal error C1083: Cannot open include file: 'Transform.h': No such file or directory
+  CollidableSpriteEntity.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseentity.h(3): fatal error C1083: Cannot open include file: 'Transform.h': No such file or directory
+  BootState.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseentity.h(3): fatal error C1083: Cannot open include file: 'Transform.h': No such file or directory
+  BaseInputManager.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseinputmanager.h(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  BaseGameState.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseentity.h(3): fatal error C1083: Cannot open include file: 'Transform.h': No such file or directory
+  BaseEntity.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\baseentity.h(3): fatal error C1083: Cannot open include file: 'Transform.h': No such file or directory
+  Application.cpp
+c:\users\jack\source\repos\gamebehaviour\gamebehaviour2\application.h(2): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...

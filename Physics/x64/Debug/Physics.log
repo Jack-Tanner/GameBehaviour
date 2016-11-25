@@ -1,0 +1,15 @@
+﻿  Transform.cpp
+c:\users\jack\source\repos\gamebehaviour\physics\transform.h(3): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  RigidBody.cpp
+c:\users\jack\source\repos\gamebehaviour\physics\rigidbody.h(3): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  PhysicsManager.cpp
+c:\users\jack\source\repos\gamebehaviour\physics\physicsmanager.h(3): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  Contact.cpp
+c:\users\jack\source\repos\gamebehaviour\physics\baseshape.h(3): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  OOBBShape.cpp
+c:\users\jack\source\repos\gamebehaviour\physics\baseshape.h(3): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  BaseShape.cpp
+c:\users\jack\source\repos\gamebehaviour\physics\baseshape.h(3): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  AABBShape.cpp
+c:\users\jack\source\repos\gamebehaviour\physics\baseshape.h(3): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  Generating Code...
