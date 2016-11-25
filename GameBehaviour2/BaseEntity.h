@@ -49,10 +49,12 @@ protected:
 
 	EntityType		m_Type;
 	
+	virtual void	Destroy() = 0;
+
 private:
 	// ONLY to be called by World.
 	void			SetID( unsigned int uID );
-	virtual void	Destroy() = 0;
+	
 
 	unsigned int	m_ID;
 };

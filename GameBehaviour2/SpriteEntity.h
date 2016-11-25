@@ -31,10 +31,8 @@ public:
 	virtual void	SerializeIn( json::json& jsonValue );
 	virtual	void	SerializeOut( json::json& jsonOutValue );
 
-private:
-	virtual void	Destroy();
-
 protected:
+	virtual void	Destroy();
 	TexturedQuad	m_Quad;
 };
 

@@ -63,7 +63,7 @@
       <Filter>System\Source Files\Entities</Filter>
     </ClCompile>
     <ClCompile Include="CollidableSpriteEntity.cpp">
-      <Filter>System\Source Files</Filter>
+      <Filter>System\Source Files\Entities</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -104,7 +104,7 @@
       <Filter>System\Header Files\Entities</Filter>
     </ClInclude>
     <ClInclude Include="CollidableSpriteEntity.h">
-      <Filter>System\Header Files</Filter>
+      <Filter>System\Header Files\Entities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

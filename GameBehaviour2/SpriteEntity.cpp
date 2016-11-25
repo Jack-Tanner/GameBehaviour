@@ -18,7 +18,7 @@ SpriteEntity::~SpriteEntity()
 
 bool SpriteEntity::Initialise( BaseInitialiser* pInitialiser )
 {
-	if ( pInitialiser == nullptr || pInitialiser->m_Type != EntityType::eSprite )
+	if ( pInitialiser == nullptr )
 		return false;
 
 	BaseEntity::Initialise( pInitialiser );

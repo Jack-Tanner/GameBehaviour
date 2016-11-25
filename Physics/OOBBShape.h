@@ -28,6 +28,11 @@ public:
 		return m_Axis[uIndex];
 	}
 
+	virtual const glm::vec2& GetSize() const
+	{
+		return m_vSize;
+	}
+
 private:
 	void Reshape();
 	glm::vec2	m_vCenter;

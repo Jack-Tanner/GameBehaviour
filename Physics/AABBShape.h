@@ -17,9 +17,9 @@ public:
 		return m_Position;
 	}
 
-	const glm::vec2& GetSize() const
+	virtual const glm::vec2& GetSize() const
 	{
-		return m_Size;	
+		return m_Size;
 	}
 
 private:

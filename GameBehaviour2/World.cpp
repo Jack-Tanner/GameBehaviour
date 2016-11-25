@@ -1,5 +1,5 @@
 #include "World.h"
-#include "SpriteEntity.h"
+#include "CollidableSpriteEntity.h"
 #include <Debug.h>
 
 #include <string>
@@ -10,6 +10,7 @@
 World::World() : m_NextID( 0 )
 {
 	m_Initialisers[EntityType::eSprite] = [ ] () { return (BaseEntity*)(new SpriteEntity()); };
+	m_Initialisers[EntityType::eCollidableSprite] = [ ] () { return ( BaseEntity* ) ( new CollidableSpriteEntity() ); };
 }
 
 World::~World()

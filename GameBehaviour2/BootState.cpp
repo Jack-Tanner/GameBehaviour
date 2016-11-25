@@ -2,7 +2,7 @@
 
 #include <TextureManager.h>
 
-#include "SpriteEntity.h"
+#include "CollidableSpriteEntity.h"
 #include "BaseInputManager.h"
 
 
@@ -18,7 +18,8 @@ BootState::~BootState()
 
 bool BootState::Load()
 {
-	m_World.SerializeIn( "test2.json" );
+	m_World.SerializeIn( "test3.json" );
+
 
 	return true;
 }

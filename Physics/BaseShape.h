@@ -27,6 +27,8 @@ public:
 	virtual void SetSize( const glm::vec2& vSize ) = 0;
 	virtual void SetRotation( float fAngle ) = 0;
 
+	virtual const glm::vec2& GetSize() const = 0;
+
 	unsigned int GetID() const
 	{
 		return m_ID;	
