@@ -1,0 +1,6 @@
+C:/Projects/Project/GameBehaviour2/ThirdParty/freetype-2.7/bin/CMakeFiles/dist.dir
+C:/Projects/Project/GameBehaviour2/ThirdParty/freetype-2.7/bin/CMakeFiles/freetype.dir
+C:/Projects/Project/GameBehaviour2/ThirdParty/freetype-2.7/bin/CMakeFiles/PACKAGE.dir
+C:/Projects/Project/GameBehaviour2/ThirdParty/freetype-2.7/bin/CMakeFiles/INSTALL.dir
+C:/Projects/Project/GameBehaviour2/ThirdParty/freetype-2.7/bin/CMakeFiles/ALL_BUILD.dir
+C:/Projects/Project/GameBehaviour2/ThirdParty/freetype-2.7/bin/CMakeFiles/ZERO_CHECK.dir

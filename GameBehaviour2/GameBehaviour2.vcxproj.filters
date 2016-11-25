@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{f81cc4e1-d927-412e-91b4-bba69d38c7b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="System\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="System\Header Files\Game States">
+      <UniqueIdentifier>{ea9726db-d5a9-4834-b671-924ccfc7cddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Source Files\GameStates">
+      <UniqueIdentifier>{efff794d-12ee-4d6e-91e5-f101c8637db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Source Files\Entities">
+      <UniqueIdentifier>{cdd381ce-5388-4565-955f-93241cbaffbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Header Files\Entities">
+      <UniqueIdentifier>{ca7c0a1c-2fe7-4d5f-b06f-2509b991d19b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseInputManager.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>System\Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="BootState.cpp">
+      <Filter>System\Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>System\Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseGameState.cpp">
+      <Filter>System\Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteEntity.cpp">
+      <Filter>System\Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEntity.cpp">
+      <Filter>System\Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="CollidableSpriteEntity.cpp">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseInputManager.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGameState.h">
+      <Filter>System\Header Files\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="BootState.h">
+      <Filter>System\Header Files\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>System\Header Files\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>System\Header Files\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityTypes.h">
+      <Filter>System\Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEntity.h">
+      <Filter>System\Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteEntity.h">
+      <Filter>System\Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidableSpriteEntity.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

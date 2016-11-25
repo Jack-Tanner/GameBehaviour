@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Projects\Project\GameBehaviour2\ThirdParty\freetype-2.7\bin\CMakeFiles\6260a84f9f5b439cdf3625f1d78292a7\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9E98AA25-1055-3349-8870-291E044ED4D8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
