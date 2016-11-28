@@ -1,8 +1,9 @@
-﻿  TextureManager.cpp
+﻿  AnimatedTexture.cpp
+  Generating Code...
+  Compiling...
   TexturedQuad.cpp
-  ShaderManager.cpp
+  TextureManager.cpp
   Renderer.cpp
-  Renderable.cpp
   Quad.cpp
   GLFontManager.cpp
   GLFont.cpp
@@ -10,6 +11,5 @@
   BaseTexture.cpp
   BaseShader.cpp
   AnimatedTexturedQuad.cpp
-  AnimatedTexture.cpp
   Generating Code...
-  GLGraphics.vcxproj -> C:\Users\Jack\Source\GameBehaviour\lib\GLGraphics_d.lib
+  GLGraphics.vcxproj -> C:\Users\Jack\Source\Repos\GameBehaviour\lib\GLGraphics_d.lib

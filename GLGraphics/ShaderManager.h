@@ -15,6 +15,7 @@ public:
 	BaseShader*	CreateShader( const char* pszShaderName, const char* pszVertexSource, const char* pszFragmentSource );
 	BaseShader*	CreateShaderFromFile( const char* pszShaderName, const char* pszVertexFile, const char* pszFragmentSource );
 	BaseShader*	GetShader( const char* pszShaderName );
+	BaseShader*	GetShader( unsigned int uIndex );
 
 	bool		UseShader( BaseShader* pShader );
 
@@ -23,6 +24,10 @@ public:
 		return m_pCurrentShader;
 	}
 
+	unsigned int GetNumShaders() const
+	{
+		return m_Shaders.size();
+	}
 
 private:
 

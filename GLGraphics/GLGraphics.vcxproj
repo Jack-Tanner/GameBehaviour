@@ -74,7 +74,7 @@
     <TargetName>$(ProjectName)_d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(SolutionDir)ThirdParty\SDL2-2.0.5\include;$(SolutionDir)ThirdParty\freetype-2.7\include;$(SolutionDir)Base;$(SolutionDir)ThirdParty\glew-2.0.0\include;$(SolutionDir)ThirdParty\glm\glm;$(SolutionDir)ThirdParty\Simple OpenGL Image Library\src;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)ThirdParty\freetype-2.7\include;$(SolutionDir)ThirdParty\SDL2-2.0.5\include;$(SolutionDir)Base;$(SolutionDir)ThirdParty\glew-2.0.0\include;$(SolutionDir)ThirdParty\glm\glm;$(SolutionDir)ThirdParty\Simple OpenGL Image Library\src</IncludePath>
     <OutDir>$(SolutionDir)lib\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">

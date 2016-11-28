@@ -22,7 +22,7 @@
 	if ( glError != GL_NO_ERROR ) \
 	{ \
 		GLOG( "glError == " << glError << "\n" << glewGetErrorString( glError ) ); \
-		GASSERT( false ); \
+		DebugBreak();\
 	} \
 } \
 

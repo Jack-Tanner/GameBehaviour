@@ -1,0 +1,50 @@
+{
+	"playerstart" :
+		{
+			"x" : 0.0,
+			"y" : 0.0
+		},
+	"entities" : [
+		{
+			"type" : 1,
+			"id" : 0,
+			"transform" : {
+				"position" : {
+					"x" : 0.0,
+					"y" : 0.0
+				},
+
+				"scale" : {
+					"x" : 1.0,
+					"y" : 1.0
+				},
+
+				"rotation" : 0.0
+			},
+
+			"texture" : "bricks.png",
+			"shader" : "BasicTextured"
+		}, 
+
+		{
+			"type" : 1,
+			"id" : 1,
+			"transform" : {
+				"position" : {
+					"x" : 128.0,
+					"y" : -250.0
+				},
+
+				"scale" : {
+					"x" : 0.5,
+					"y" : 0.5
+				},
+
+				"rotation" : 45.0
+			},
+			
+			"texture" : "player.png",
+			"shader" : "BasicTextured"
+		}
+	]
+}

@@ -64,6 +64,14 @@ BaseShader * ShaderManager::GetShader( const char * pszShaderName )
 	return nullptr;
 }
 
+BaseShader * ShaderManager::GetShader( unsigned int uIndex )
+{
+	if ( uIndex < m_Shaders.size() )
+		return m_Shaders[uIndex];
+
+	return nullptr;
+}
+
 bool ShaderManager::UseShader( BaseShader * pShader )
 {
 	if ( pShader != nullptr )

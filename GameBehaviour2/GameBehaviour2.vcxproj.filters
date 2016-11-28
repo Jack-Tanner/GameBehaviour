@@ -18,12 +18,6 @@
     <Filter Include="System\Source Files\GameStates">
       <UniqueIdentifier>{efff794d-12ee-4d6e-91e5-f101c8637db7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="System\Source Files\Entities">
-      <UniqueIdentifier>{cdd381ce-5388-4565-955f-93241cbaffbb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="System\Header Files\Entities">
-      <UniqueIdentifier>{ca7c0a1c-2fe7-4d5f-b06f-2509b991d19b}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -36,9 +30,6 @@
       <Filter>System\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BaseInputManager.cpp">
-      <Filter>System\Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="World.cpp">
       <Filter>System\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GameStateManager.cpp">
@@ -56,15 +47,6 @@
     <ClCompile Include="BaseGameState.cpp">
       <Filter>System\Source Files\GameStates</Filter>
     </ClCompile>
-    <ClCompile Include="SpriteEntity.cpp">
-      <Filter>System\Source Files\Entities</Filter>
-    </ClCompile>
-    <ClCompile Include="BaseEntity.cpp">
-      <Filter>System\Source Files\Entities</Filter>
-    </ClCompile>
-    <ClCompile Include="CollidableSpriteEntity.cpp">
-      <Filter>System\Source Files\Entities</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Window.h">
@@ -74,9 +56,6 @@
       <Filter>System\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BaseInputManager.h">
-      <Filter>System\Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="World.h">
       <Filter>System\Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GameStateManager.h">
@@ -93,18 +72,6 @@
     </ClInclude>
     <ClInclude Include="GameState.h">
       <Filter>System\Header Files\Game States</Filter>
-    </ClInclude>
-    <ClInclude Include="EntityTypes.h">
-      <Filter>System\Header Files\Entities</Filter>
-    </ClInclude>
-    <ClInclude Include="BaseEntity.h">
-      <Filter>System\Header Files\Entities</Filter>
-    </ClInclude>
-    <ClInclude Include="SpriteEntity.h">
-      <Filter>System\Header Files\Entities</Filter>
-    </ClInclude>
-    <ClInclude Include="CollidableSpriteEntity.h">
-      <Filter>System\Header Files\Entities</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

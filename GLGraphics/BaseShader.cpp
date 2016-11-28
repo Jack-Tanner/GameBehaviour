@@ -81,7 +81,7 @@ ShaderAttribute AttributeFromString( std::string strAttributeName )
 }
 
 
-BaseShader::BaseShader() : m_bInitialised( false ), m_ShaderProgram( 0 ), m_VertexShader( 0 ), m_FragmentShader( 0 ), m_bInUse( false )
+BaseShader::BaseShader() : m_bInitialised( false ), m_ShaderProgram( 0 ), m_VertexShader( 0 ), m_FragmentShader( 0 ), m_bInUse( false ), m_WorldLocation( GL_INVALID_INDEX ), m_ViewLocation( GL_INVALID_INDEX ), m_ProjectionLocation( GL_INVALID_INDEX )
 {
 
 }
